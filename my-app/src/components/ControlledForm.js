@@ -31,11 +31,15 @@ export class ControlledForm extends Component {
       })
     }
 
+    handleSubmit = (event) => {
+      event.preventDefault();
+      console.log(this.state)
+    }
   render() {
     return (
       <div>
         <h2>Please fill out the form below:</h2>
-        <form>
+        <form onSubmit={this.handleSubmit}>
             {/*on first commit -  Uncntrolled form managed by DOM as it refreshes on submit button click */}
             <div>
               <label htmlFor='id-name'>Your Name:</label>
