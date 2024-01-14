@@ -39,6 +39,7 @@ export class UnControlledForm extends Component {
                   name='name'
                   type='text'
                   ref={this.inputName}
+                  defaultValue={"Ali"}
               />
             </div>
             <div>
