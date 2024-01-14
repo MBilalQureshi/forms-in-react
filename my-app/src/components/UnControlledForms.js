@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-export class ControlledForm extends Component {
+export class UnControlledForm extends Component {
     constructor(props) {
       super(props)
     
@@ -72,4 +72,4 @@ export class ControlledForm extends Component {
   }
 }
 
-export default ControlledForm
+export default UnControlledForm
